@@ -31,5 +31,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           publish: true
-          version: "${{ env.RELEASE_VERSION }}-rootless"
+          version: "${{ env.RELEASE_VERSION }}"
           config-name: release-drafter.yaml
