@@ -33,4 +33,5 @@ jobs:
           publish: true
           name: "${{ env.RELEASE_VERSION }}"
           version: "${{ env.RELEASE_VERSION }}"
+          tag: "${{ env.RELEASE_VERSION }}"
           config-name: release-drafter.yaml
