@@ -31,5 +31,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           publish: true
+          name: "${{ env.RELEASE_VERSION }}"
           version: "${{ env.RELEASE_VERSION }}"
           config-name: release-drafter.yaml
